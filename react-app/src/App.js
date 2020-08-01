@@ -7,7 +7,7 @@ import { HeaderBar, NavBar, NotFound } from './components';
 import About from './About';
 
 const Products = withRouter(
-  lazy(() => import(/* webpackChunkName: "products" */ './products/Products'))
+  lazy(() => import(/* webpackChunkName: "products" */ './products/Products')),
 );
 
 class App extends Component {
